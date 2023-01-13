@@ -6,7 +6,6 @@ body {
 }
 
 .Card{
-    display: flex;
     width: 320px;
     height: 498px;
     border-radius: 15px;
@@ -20,25 +19,23 @@ body {
 
 }
 
-.image {
-    background: url(/qrcode.png) no-repeat;
+img {
     width: 289px;
     height: 289px;
     border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 13px;
+    margin: 14px;
+
+
 }
 
 .pargf{
     color: hsl(218, 44%, 22%) ;
-    margin-top: 315px;
+    margin-top: 8px;
     font-family: 'Outfit', sans-serif;
     font-size: 24px;
     font-weight: bold;
-    text-align: center;
-    
-    
+    text-align:center;
+    align-items:center;
 
 }
 
